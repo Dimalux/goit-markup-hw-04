@@ -150,7 +150,18 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
   background-color: #2e2f42;
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7)),
+  url("../images/section1_hero/people-office.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+
+
+
 }
 
 .hero-container {
@@ -207,12 +218,40 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  padding-bottom: 120px;
 }
 
 .advantages-item {
   width: 264px;
   height: 104px;
 }
+
+.advantages-item-icon {
+display: flex
+width: 264px;
+height: 112px;
+
+border: 1px solid #8e8f99;
+border-radius: 4px;
+
+background: #f4f4fd;
+margin-bottom: 8px;
+
+}
+
+.advantages-icon {
+display: block;
+margin: auto 0;
+padding: 24px 100px;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+margin-bottom: 8px;
+}
+
+
 
 .advantages-item-title {
   font-weight: 500;
@@ -228,6 +267,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
 }
 
 /* #endregion Section-2  Description and objectives  */
@@ -238,6 +278,10 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #f4f4fd;
+
+    background-position: center;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .team-title {
@@ -262,15 +306,16 @@ body {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
 }
-
-.team-people {
-  padding: 32px 0;
-}
-
 .team-foto {
   width: 264px;
   height: 260px;
 }
+
+.team-people {
+  padding: 32px 16px;
+}
+
+
 
 .team-list-title {
   text-align: center;
@@ -291,7 +336,66 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
+
+/* .team-icon-list {
+display: flex;
+gap: 24px;
+align-items: center;
+justify-content: center;
+justify-content:  space-between;
+width: 232px;
+height: 40px;
+padding: 32px 0;
+} */
+
+/* ul  */
+.team-icon-nav { 
+  display: flex;
+  width: 232px;
+  justify-content: center;
+  align-items: center;
+  justify-content:  space-between;
+  gap: 24px;
+  padding: 0;
+}
+
+/* li */
+.team-icon-list-social {
+  width: 40px;
+  height: 40px;
+}
+
+/* a (link) */
+.team-icon-list-link {
+width: 100%;
+height: 100%;
+background-color: #4d5ae5;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* #endregion Section-3  Our Team */
 
