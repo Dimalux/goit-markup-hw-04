@@ -352,11 +352,14 @@ body {
   gap: 24px;
 }
 
+.team-list:first-child {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); 0px 1px 1px rgba(46, 47, 66, 0.16); 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-foto {
@@ -397,7 +400,6 @@ body {
   justify-content: center;
   gap: 24px;
 
-  
   /* align-items: center;
   justify-content: space-between;
   
@@ -434,18 +436,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-list-link:hover {
-  background-color: #404bbf;
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); 0px 1px 1px rgba(46, 47, 66, 0.16); 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .team-icon-list-link:active {
   background-color: #404bbf;
 }
 
-.team-icon-list-link-footer:hover {
-  background-color: #31d0aa;
-  
+.team-icon-list-link:hover {
+  background-color: #404bbf;
 }
 
 /* a (link-footer) */
@@ -470,7 +466,6 @@ body {
 .team-icon-list-link-footer:active {
   background-color: #31d0aa;
 }
-
 
 /* #endregion Section-3  Our Team */
 
@@ -527,17 +522,13 @@ body {
 }
 
 .portfolio-bank:hover {
- box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
 }
-
-
 
 .portfolio-bank:hover .overlay {
   transform: translateY(0%);
   opacity: 1;
- 
 }
 
 .overlay {
@@ -640,15 +631,12 @@ body {
 /* .footer-container-bloc {
   display: flex;
 } */
- .footer-logo-text {
+.footer-logo-text {
   margin-right: 120px;
- }
+}
 
- .team-icon-list-futer {
-
-
-
- }
+/* .team-icon-list-futer {
+} */
 
 .footer-container-list-nav {
   padding-right: 692px;
@@ -671,7 +659,7 @@ body {
 
 .footer-team-icon-nav {
   display: flex;
-gap: 16px;
+  gap: 16px;
 
   /* width: 208px;
   height: 40px;
@@ -680,6 +668,15 @@ gap: 16px;
   justify-content: space-between;
   
   padding: 0; */
+}
+
+.team-icon-list-link-footer:hover {
+  background-color: #31d0aa;
+  fill: #31d0aa;
+}
+.team-icon-list-link-footer:active {
+  background-color: #31d0aa;
+  fill: #31d0aa;
 }
 
 /* #endregion Footer */
