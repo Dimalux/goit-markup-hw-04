@@ -429,13 +429,18 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
 .team-icon-list-link:hover {
   background-color: #404bbf;
 }
 
-.team-icon-list-link:active {
+.team-icon-list-link:focus, .team-icon-list-link:active {
   background-color: #404bbf;
 }
+
+
+
 
 /* #endregion Section-3  Our Team */
 
@@ -591,15 +596,9 @@ body {
   align-items: baseline;
 }
 
-/* .footer-container-bloc {
-  display: flex;
-} */
 .footer-logo-text {
   margin-right: 120px;
 }
-
-/* .team-icon-list-futer {
-} */
 
 .footer-container-list-nav {
   padding-right: 692px;
@@ -613,24 +612,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-
-  /* width: 96px;
-  height: 24px; */
-
   margin-bottom: 16px;
 }
 
 .footer-team-icon-nav {
   display: flex;
   gap: 16px;
-
-  /* width: 208px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  
-  padding: 0; */
 }
 
 /* a (link-footer) */
@@ -647,7 +634,7 @@ body {
 .team-icon-list-link-footer:hover {
   background-color: #31d0aa;
 }
-.team-icon-list-link-footer:active {
+.team-icon-list-link-footer:focus, .team-icon-list-link-footer:active {
   background-color: #31d0aa;
 }
 
