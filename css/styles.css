@@ -429,18 +429,14 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .team-icon-list-link:hover {
   background-color: #404bbf;
 }
 
-.team-icon-list-link:focus, .team-icon-list-link:active {
+.team-icon-list-link:focus,
+.team-icon-list-link:active {
   background-color: #404bbf;
 }
-
-
-
 
 /* #endregion Section-3  Our Team */
 
@@ -629,12 +625,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-list-link-footer:hover {
   background-color: #31d0aa;
 }
-.team-icon-list-link-footer:focus, .team-icon-list-link-footer:active {
+.team-icon-list-link-footer:focus,
+.team-icon-list-link-footer:active {
   background-color: #31d0aa;
 }
 
